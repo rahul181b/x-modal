@@ -27,11 +27,11 @@ function App() {
 
   const handleSubmit = (e) => {
 
-    if (!userData.username.trim()) {
-      alert("Please fill out this field");
-      e.preventDefault();
-      return;
-    }
+    // if (!userData.username.trim()) {
+    //   alert("Please fill out this field");
+    //   e.preventDefault();
+    //   return;
+    // }
 
     if (!userData.email.includes('@')) {
       alert("Invalid email.");
