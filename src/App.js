@@ -53,7 +53,7 @@ function App() {
     const today = new Date();
 
     if (dobDate > today) {
-      alert("Invalid date of birth. Date of birth cannot be in the future.");
+      alert("Invalid date of birth");
       e.preventDefault();
       return;
     }
