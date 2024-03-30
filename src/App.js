@@ -34,12 +34,12 @@ function App() {
     }
 
     if (!userData.email.includes('@')) {
-      alert("Invalid email. Please check your email address.");
+      alert("Invalid email.");
       e.preventDefault();
       return;
     }
     if (userData.phone.length !== 10) {
-      alert("Invalid phone number. Please enter a 10-digit phone number.");
+      alert("Invalid phone number.");
       e.preventDefault();
       return;
     }
